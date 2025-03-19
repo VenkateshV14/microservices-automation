@@ -9,6 +9,37 @@ This project is an **e-commerce platform** built with a **microservices architec
 I containerized these services using **Docker**, orchestrated them with **Kubernetes (EKS)**, and implemented **CI/CD with GitHub Actions**.
 
 ## Project Structure
+```
+microservices-automation/
+│── src/      
+│    │── recommendation/       
+│    │   ├── Dockerfile                                    
+│    │   ├── requirements.txt          
+│    │   ├── recommendation_server.py                                      
+│    │── ad/                   
+│    │   ├── Dockerfile                
+│    │   ├── src/                      
+│    │   ├── build.gradle                               
+│    │── product-catalog/      
+│    │   ├── Dockerfile                
+│    │   ├── main.go                   
+│    │   ├── go.mod                    
+│── kubernetes/                          
+│   ├── recommendation/
+│   │   ├── deploy.yml             
+│   │   ├── service.yml
+│   ├── ad/
+│   │   ├── deploy.yml
+│   │   ├── service.yml
+│   ├── product-catalog/
+│   │   ├── deploy.yml
+│   │   ├── service.yml
+│── .github/workflows/            
+│   ├── ci.yml                    
+│── images/                
+│── docker-compose.yml
+│── README.md                     
+```
 
 ## Architecture Diagram
 ![Architecture](images/micro-architecture.jpg)
