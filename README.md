@@ -27,12 +27,13 @@ I containerized these services using **Docker**, orchestrated them with **Kubern
 - Dependency management with **Gradle**
 - Packaged as a Docker container
 - Deployed using Kubernetes on **EKS**
+![ad](images/add-service.jpeg)
 
 ### Product Catalog Service (Golang)
 - Built using **Go**
 - Lightweight and fast API responses
 - Kubernetes manages scalability
-
+![product-catalog](images/product-catalog.JPG)
 ## Deployment Flow
 1. **Build & Test**  
    - Each microservice is built & tested via **GitHub Actions**  
