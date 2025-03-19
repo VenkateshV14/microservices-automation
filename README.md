@@ -76,8 +76,3 @@ microservices-automation/
    - Deployed using Kubernetes deployment & service YAML files  
    - Services are exposed via Kubernetes Load Balancer  
 
-## Running Locally
-1. Clone the repository:  
-   ```sh
-   git clone https://github.com/yourusername/ecommerce-microservices.git
-   cd ecommerce-microservices
