@@ -1,7 +1,7 @@
 # E-Commerce Microservices Project
 
 ## Overview
-This project is an **e-commerce platform** built with a **microservices architecture**. It consists of **22 microservices**, out of which I worked on the following three services:  
+This project is an **e-commerce platform** demo from **open telemetry** built with a **microservices architecture**. It consists of **22 microservices**, out of which I worked on the following three services:  
 - **Recommendation Service** (Python)  
 - **Ad Service** (Java with Gradle)  
 - **Product Catalog Service** (Golang)  
