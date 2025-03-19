@@ -20,7 +20,7 @@ I containerized these services using **Docker**, orchestrated them with **Kubern
 - Uses **Docker** for containerization
 - API exposed via **Kubernetes Service**
 - CI/CD via **GitHub Actions**
-(images/recommenations.JPG)
+![recommendations](images/recommenations.JPG)
 
 ### Ad Service (Java with Gradle)
 - Built using **Spring Boot**
