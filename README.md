@@ -11,7 +11,7 @@ I containerized these services using **Docker**, orchestrated them with **Kubern
 ## Project Structure
 
 ## Architecture Diagram
-![Deployment Architecture](assets/images/deployment.png)
+![Architecture](images/micro-architecture.jpg)
 
 ## Microservices Details
 
