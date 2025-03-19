@@ -37,6 +37,7 @@ microservices-automation/
 │── .github/workflows/            
 │   ├── ci.yml                    
 │── images/                
+│── .gitignore                
 │── docker-compose.yml
 │── README.md                     
 ```
